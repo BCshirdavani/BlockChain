@@ -24,3 +24,7 @@ class Blockchain:
         #   genesis block has arbitrary proof and previous hash value
         self.create_block(proof = 1, previous_hash = '0')  
         
+    def create_block(self, proof, previous_hash):
+        #   create a dictionary that defines a block
+        block = {}
+        
