@@ -22,5 +22,5 @@ class Blockchain:
         #   use list for the chain
         self.chain = []
         #   genesis block has arbitrary proof and previous hash value
-        self.create_block(proof = 1, previous_hash = 0)  
+        self.create_block(proof = 1, previous_hash = '0')  
         
